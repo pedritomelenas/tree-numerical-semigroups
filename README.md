@@ -6,6 +6,16 @@ by *P.A. García-Sánchez, D. Marín-Aragón, and A.M. Robles-Pérez*
 
 *You can play with this in [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pedritomelenas/tree-numerical-semigroups/master?filepath=francy-monoids-mult-three.ipynb)*
 
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
 A *numerical semigroup* is a submonoid of the set of nonnegative integers with respect to addition, with the special property that only finitely many positive integers do not belong to the semigroup. These integers not in the numerical semigroup are called *gaps*, and their cardinality, the *genus* of the numerical semigroup.
 
