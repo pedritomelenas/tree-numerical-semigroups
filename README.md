@@ -6,17 +6,6 @@ by *P.A. García-Sánchez, D. Marín-Aragón, and A.M. Robles-Pérez*
 
 *You can play with this in [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pedritomelenas/tree-numerical-semigroups/master?filepath=francy-monoids-mult-three.ipynb)*
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
-
 A *numerical semigroup* is a submonoid of the set of nonnegative integers with respect to addition, with the special property that only finitely many positive integers do not belong to the semigroup. These integers not in the numerical semigroup are called *gaps*, and their cardinality, the *genus* of the numerical semigroup.
 
 The number of numerical semigroups with a given genus seems to grow as the genus grows. It was [conjectured](https://link.springer.com/article/10.1007/s00233-007-9014-8) (and later [solved](https://link.springer.com/article/10.1007/s00233-012-9456-5)) that this sequence grows as the Fibonacci series.
