@@ -1,14 +1,11 @@
-# tree-numerical-semigroups
-
-**Case study of the tree of numerical semigroups with multiplicity three**
-
-
-You can play with this in [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pedritomelenas/tree-numerical-semigroups/master?filepath=francy-monoids-mult-three.ipynb)
-
-
 # The number of numerical semigroups with given genus
 
 by *P.A. García-Sánchez, D. Marín-Aragón, and A.M. Robles-Pérez*
+
+**Case study of the tree of numerical semigroups with multiplicity three**
+
+*You can play with this in [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pedritomelenas/tree-numerical-semigroups/master?filepath=francy-monoids-mult-three.ipynb)*
+
 
 A *numerical semigroup* is a submonoid of the set of nonnegative integers with respect to addition, with the special property that only finitely many positive integers do not belong to the semigroup. These integers not in the numerical semigroup are called *gaps*, and their cardinality, the *genus* of the numerical semigroup.
 
@@ -85,6 +82,8 @@ DrawTreeOfSonsOfNumericalSemigroup(s,5,gens);
 ```
 
 ![tree-sons-N](figures/diagram-2.png)
+
+Observe that the labels of the nodes are the set of minimal generators of the semigroups without the multiplicity. 
 
 Let us go a bit further.
 
