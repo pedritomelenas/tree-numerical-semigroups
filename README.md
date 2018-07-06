@@ -10,7 +10,7 @@ A *numerical semigroup* is a submonoid of the set of nonnegative integers with r
 
 The number of numerical semigroups with a given genus seems to grow as the genus grows. It was [conjectured](https://link.springer.com/article/10.1007/s00233-007-9014-8) (and later [solved](https://link.springer.com/article/10.1007/s00233-012-9456-5)) that this sequence grows as the Fibonacci series.
 
-[GAP](https://gap-system.org) offers a package for working with numerical semigroups ([NumericalSgps](https://gap-packages.github.io/numericalsgps)), and a package for displaying data in a jupyter notebook is under development: [francy](https://github.com/mcmartins/francy). [FranyMonoids](https://http://gap-packages.github.io/FrancyMonoids) takes profit of them both. In order to use it in GAP we load it with `LoadPackage`.
+[GAP](https://gap-system.org) offers a package for working with numerical semigroups ([NumericalSgps](https://gap-packages.github.io/numericalsgps)), and a package for displaying data in a jupyter notebook is under development: [francy](https://github.com/mcmartins/francy). [FrancyMonoids](https://gap-packages.github.io/FrancyMonoids) takes profit of them both. In order to use it in GAP we load it with `LoadPackage`.
 
 ```
 LoadPackage("FrancyMonoids");
@@ -33,7 +33,7 @@ List([1..15], g->Length(NumericalSemigroupsWithGenus(g)));
 
  >   [ 1, 2, 4, 7, 12, 23, 39, 67, 118, 204, 343, 592, 1001, 1693, 2857 ]
 
-The maximum genus for which we know the number of numerical semigroups with this genus is 70. Just the set of numerical semigroups with genus less than or equal to 57 is worth 14TB of memory. In this [repository](https://github.com) you will find the sequence up to 70.
+The maximum genus for which we know the number of numerical semigroups with this genus is 70. Just the set of numerical semigroups with genus less than or equal to 57 is worth 14TB of memory (see Manuel Delgado's [numbers page](http://cmup.fc.up.pt/cmup/mdelgado/numbers) with some nice pictures). In this [repository](https://github.com/hivert/NumericMonoid) you will find the sequence up to 70.
 
 Even though it has been shown that the number of numerical semigroups with given genus grows like the Fibonacci sequence, we still do not know if there are more numerical semigroups with genus $g+1$ than numerical semigroups with genus $g$. This is true asymptotically, and for genus less than 71.
 
